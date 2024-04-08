@@ -1,0 +1,50 @@
+\section{Game Engines}
+
+\begin{table}[!t]
+    \renewcommand{\arraystretch}{1.3}
+    \caption{Summary of Leading Game Development Engines}
+    \label{tab:engineSummary}
+    \centering
+    \begin{tabular}{c|c|c|c|c|c} %|c}
+    \hline
+    \multirow{2}{*}{\bfseries Engine} & \multirow{2}{*}{\bfseries Manufacturer} & \multirow{2}{*}{\bfseries Language} & \multirow{2}{*}{\bfseries Platforms} & \multirow{2}{*}{\bfseries Tools} & \bfseries Dev \\
+    & & & & & \bfseries Friendly \\ \hline \hline
+    \multirow{2}{*}{Unity} & Unity & \multirow{2}{*}{C\#} & \multirow{2}{*}{\ref{sec:supportedPlatforms}} & \multirow{2}{*}{\ref{sec:tools}} & \multirow{2}{*}{Yes} \\
+    & Technologies & & & & \\ \hline
+    \multirow{2}{*}{Unreal} & Epic & \multirow{2}{*}{C++} & \multirow{2}{*}{\ref{sec:supportedPlatforms}} & \multirow{2}{*}{\ref{sec:tools}} & \multirow{2}{*}{Yes} \\
+    & Games & & & & \\ \hline
+    \multirow{3}{*}{Godot} & Godot & \multirow{2}{*}{GDScript} & \multirow{3}{*}{\ref{sec:supportedPlatforms}} & \multirow{3}{*}{\ref{sec:tools}} & \multirow{3}{*}{Yes} \\
+    & Foundation & \multirow{2}{*}{C\#} & & & \\
+    & (Open Source) & & & & \\ \hline \hline
+    \end{tabular}
+\end{table}
+
+Development of modern games is made possible by game engines, or development platforms with specific features made for assisting in creating
+games similar to current popular games. Table~\ref{tab:engineSummary} contains a summary of three leading game development engines, and some of the
+features specific to each.
+
+\subsection{Supported Platforms}\label{sec:supportedPlatforms}
+
+Each of the game engines above support multiple target platforms, with Unity and Unreal Engine including just about every mainstream gaming
+device. The joint platforms between each of these engines include iOS, Android, Windows, Linux, MacOS, and HTML5. Unity and Unreal Engine both
+contain native support for compiling on leading game devices such as Microsoft Xbox, Sony Playstation, and Nintendo Switch. External tools allow
+for Godot engine games to be compiled for these platforms as well, but support is not built in to the base package. Both Unity and Unreal both
+additionally include support for compiling for Virtual Reality systems, such as ths Oculus Rift.
+
+\subsection{Tools}\label{sec:tools}
+
+Each of the game engines share a fairly similar set of tools, all aimed at providing developers the features they need to develop games from scratch.
+All engines compared here contain 3D object support and game test playback for game testing. Unity and Godot additonally contain separate 2D engines
+for simplifying the process for games that do not need depth. Unity and Unreal both additionally have their own asset marketplaces, containing
+both paid and free assets to assist developers in the process.
+
+\subsection{Review}\label{sec:review}
+
+All three engines are widely used by current developers, and provide a lot of tools and great physics engines for games. Godot has not seen
+widspread addoption for today's popular games, but it is user-friendly, and open source, allowing for developers to contribute to improving
+the engine with features they would like to see. Unity has been fairly popular, with some well-known games coming from the engine, such as Rust
+and Kerbal Space Program. However, uptake of Unity for professional development took a downturn in 2023 when they announce pricing changes that
+charge per download, which has major impacts to small developers where overall game price is lower. Because of this, Unity is seen as less
+friendly to indie-game developers, especially when compared to Unreal. Unreal Engine gets the highest marks here due to its widespread popularity
+both for indie development, as well as development for some of the most popular AAA Games, such as Fortnite. Both Unity and Unreal are generally considered very
+developer friendly, and while Unity has the largest individual developer base, Unreal has seen more uptake by existing game studios.
