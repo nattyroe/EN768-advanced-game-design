@@ -1,3 +1,4 @@
+\newpage
 \begin{thebibliography}{00}
     \bibitem{b3} A. Dexit \& B. Nalebuff, ``Game Theory'',
     Econlib, [Online] Availible:
@@ -14,4 +15,17 @@
     Medium,
     [Online] Availible:
     https://alexiamandeville.medium.com/game-design-breakdown-party-games-5c2bd301cb96
+\bibitem{b5} E. Markopoulos et. All,
+    ``Mapping the Monetiztion Challenge of Gaming in Various Domains'',
+    HULT International Business School,
+    [Online] Availible:
+    https://discovery.ucl.ac.uk/id/eprint/10120905/1/Markopoulos\_13-Mapping\%20the\%20Monetization\%20Challenge\%20of\%20Gaming\%20-Markopoulos\_Evangelos\_146.pdf
+\bibitem{b6} W. Bedingfield, ``It\'s Not Just Loot Boxes: Predatory Monetization is Everywhere'',
+    Wired,
+    [Online] Availible:
+    https://www.wired.com/story/loot-boxes-predatory-monetization-games/
+\bibitem{b7} K. Balasubramanian, ``The Evolution of Open-World Games'',
+    Gameopedia,
+    [Online] Availible:
+    https://www.gameopedia.com/the-evolution-of-open-world-games/
 \end{thebibliography}
